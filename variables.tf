@@ -34,6 +34,6 @@ variable "environment" {
   default     = "development"
 }
 variable "billing_code" {
-  type = string
+  type        = string
   description = "Billing code"
 }
